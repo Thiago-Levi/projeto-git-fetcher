@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+}
+
+body{
+  font-family: 'Roboto',sans-serif;
+}
+
+
+.root-containers{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  justify-items: center;
+  align-items: center;
+}
+.left-panel, .right-panel {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-panel{
+  background-color: beige;
+}
+.right-panel{
+  background-color: azure;
+}
+
+.aside-infos p{
+  margin: 1rem;
+}
+.main-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+button, input{
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+
+
+.new-root-container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  border: 1px solid gray;
+  gap: 2rem;
+  
+}
+
+.profile-card{
+  display: flex;
+  justify-content: space-between;
+
+}
+.list-of-repositories{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.display-none {
+  display: none;
+}
+

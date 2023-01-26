@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>GitFetcher</title>
+</head>
+<body>
+  <section class="root-containers"> <!-- ATENÇÂO para DISPLAY-NONE-->
+    <aside class="left-panel ">
+      <div class="aside-infos">
+        <p class="title">Git Fetcher</p>
+        <p class="subtitle">Nós buscamos os reposítórios dos devs pra você</p>
+      </div>
+    </aside>
+    <main class="right-panel">
+      <div class="main-infos">
+        <p class="title">Buscar por um perfil do GitHub</p>
+        <form action="">
+          <input type="text" id="inputSearch"placeholder="Digite o nome do perfil do GitHub">
+          <button>Ver perfil</button>
+        </form>
+      </div>
+    </main>
+  </section>
+
+  <section class="new-root-container  display-none">
+    <div class="profile-card">
+      <div class="img-title-bio-container">
+        <img src="" alt="Foto de Perfil">
+        <p class="title">Nome de usuário Github</p>
+        <p class="subtitle">BIO do github</p>
+      </div>
+      <div class="button-container">
+        <button class="refresh-button">Bucar outro dev</button>
+      </div>
+    </div>
+    <ul class="list-of-repositories">
+      <li class="repository">
+        <p class="repository-name">Nome do repositório</p>
+        <p class="repository-description">Descrição do repositório</p>
+        <button class="button-to-repository">Repositório</button>
+        <button class="button-to-demo">DEMO</button>
+    </li>
+      <li class="repository">
+        <p class="repository-name">Nome do repositório</p>
+        <p class="repository-description">Descrição do repositório</p>
+        <button class="button-to-repository">Repositório</button>
+        <button class="button-to-demo">DEMO</button>
+    </li>
+      <li class="repository">
+        <p class="repository-name">Nome do repositório</p>
+        <p class="repository-description">Descrição do repositório</p>
+        <button class="button-to-repository">Repositório</button>
+        <button class="button-to-demo">DEMO</button>
+    </li>
+      <li class="repository">
+        <p class="repository-name">Nome do repositório</p>
+        <p class="repository-description">Descrição do repositório</p>
+        <button class="button-to-repository">Repositório</button>
+        <button class="button-to-demo">DEMO</button>
+    </li>
+      <li class="repository">
+        <p class="repository-name">Nome do repositório</p>
+        <p class="repository-description">Descrição do repositório</p>
+        <button class="button-to-repository">Repositório</button>
+        <button class="button-to-demo">DEMO</button>
+    </li>
+      <li class="repository">
+        <p class="repository-name">Nome do repositório</p>
+        <p class="repository-description">Descrição do repositório</p>
+        <button class="button-to-repository">Repositório</button>
+        <button class="button-to-demo">DEMO</button>
+    </li>
+    </ul>
+  </section>
+
+
+
+<script src="./js/app.js"></script>
+</body>
+</html>
