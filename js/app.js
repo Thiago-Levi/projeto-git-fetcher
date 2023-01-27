@@ -15,6 +15,5 @@ form.addEventListener("submit", (event) => {
 });
 
 btnRefresh.addEventListener("click", (event) => {
-  rooContainer.classList.toggle("display-none");
-  newRootContainer.classList.toggle("display-none");
+  location.reload();
 });
