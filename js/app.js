@@ -83,7 +83,7 @@ const renderRepositories = (repositories) => {
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
 
-  const userNameInputted = event.target.inputSearch.value;
+  const userNameInputted = event.target.inputSearch.value.trim();
   const userInfosParsed = await getUserInfos(userNameInputted);
   renderUserInfosOnCard(userInfosParsed);
   togglesContainers();
