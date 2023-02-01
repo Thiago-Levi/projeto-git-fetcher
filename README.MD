@@ -4,7 +4,7 @@
 
 ### Implementei esse projeto que é uma página onde você pode buscar por perfis de devs/usuários do GitHub e obter informações do perfil e repositórios.
 
-👀 Dá uma olhada aqui: </>
+👀 Dá uma olhada aqui: <https://thiago-levi.github.io/projeto-git-fetcher>
 
 Infos:
 
