@@ -12,146 +12,38 @@
   <title>GitFetcher</title>
 </head>
 <body>
-  <section class="root-containers"> <!-- ATENÇÂO para DISPLAY-NONE-->
+  <section class="root-containers" data-js="root-containers"> 
     <aside class="left-panel">
         <p class="title">Git Fetcher</p>
         <p class="subtitle">Nós buscamos os reposítórios dos devs pra você</p>
     </aside>
     <main class="right-panel">
       <div class="main-infos">
+        <img src="./src/img/icons8-github.svg" class="img-logo" alt="" srcset="">
         <p class="title">Buscar por um perfil do GitHub</p>
         <form action="">
-          <input type="text" id="inputSearch"placeholder="Digite o nome do perfil do GitHub">
+          <input type="text" id="inputSearch"placeholder="Digite o nome do perfil do GitHub" value="Thiago-Levi" required>
           <button class="btn-go-profile">Ver perfil</button>
         </form>
       </div>
     </main>
   </section>
 
-  <section class="new-root-container display-none">
+  <section class="new-root-container display-none" data-js="new-root-container">
     <div class="profile-card">
-      <div class="img-title-bio-container">
-        <img src="" alt="Foto de Perfil">
-        <p class="title">Nome de usuário Github</p>
-        <p class="subtitle">BIO do github</p>
+      <div class="img-title-bio-container" data-js="img-title-bio-container">
+        <img src="" alt="Foto de Perfil" class="user-img" data-js="userImg">
+        <p class="title" data-js="userName">Nome de usuário Github</p>
+        <p class="subtitle" data-js="bio">BIO do github</p>
       </div>
       <div class="button-container">
-        <button class="refresh-button">Buscar outro dev</button>
+        <a href=""><button class="refresh-button" data-js="refresh-button">Buscar outro dev</button></a>
       </div>
     </div>
-    <ul class="list-of-repositories">
-      <li class="repository">
-        <p class="repository-name"><span>Nome&#58;&ensp;</span>Repositório XYZ</p>
-        <p class="repository-description"><span>Descrição&#58;&ensp;</span>Este repositório bla bla bla</p>
-        <button class="button-to-repository">Repositório</button>
-        <button class="button-to-demo">Demo</button>
-    </li>
-      <li class="repository">
-        <p class="repository-name">Nome do repositório</p>
-        <p class="repository-description">Descrição do repositório</p>
-        <button class="button-to-repository">Repositório</button>
-        <button class="button-to-demo">Demo</button>
-      </li>
-      <li class="repository">
-        <p class="repository-name">Nome do repositório</p>
-        <p class="repository-description">Descrição do repositório</p>
-        <button class="button-to-repository">Repositório</button>
-        <button class="button-to-demo">Demo</button>
-      </li>
-      <li class="repository">
-        <p class="repository-name">Nome do repositório</p>
-        <p class="repository-description">Descrição do repositório</p>
-        <button class="button-to-repository">Repositório</button>
-        <button class="button-to-demo">Demo</button>
-      </li>
-      <li class="repository">
-        <p class="repository-name">Nome do repositório</p>
-        <p class="repository-description">Descrição do repositório</p>
-        <button class="button-to-repository">Repositório</button>
-        <button class="button-to-demo">Demo</button>
-      </li>
-      <li class="repository">
-        <p class="repository-name">Nome do repositório</p>
-        <p class="repository-description">Descrição do repositório</p>
-        <button class="button-to-repository">Repositório</button>
-        <button class="button-to-demo">Demo</button>
-      </li>
-     <li class="repository">
-      <p class="repository-name">Nome do repositório</p>
-      <p class="repository-description">Descrição do repositório</p>
-      <button class="button-to-repository">Repositório</button>
-      <button class="button-to-demo">Demo</button>
-    </li>
-    <li class="repository">
-      <p class="repository-name">Nome do repositório</p>
-      <p class="repository-description">Descrição do repositório</p>
-      <button class="button-to-repository">Repositório</button>
-      <button class="button-to-demo">Demo</button>
-    </li>
-    <li class="repository">
-      <p class="repository-name">Nome do repositório</p>
-      <p class="repository-description">Descrição do repositório</p>
-      <button class="button-to-repository">Repositório</button>
-      <button class="button-to-demo">Demo</button>
-    </li>
-    <li class="repository">
-      <p class="repository-name">Nome do repositório</p>
-      <p class="repository-description">Descrição do repositório</p>
-      <button class="button-to-repository">Repositório</button>
-      <button class="button-to-demo">Demo</button>
-    </li>
-    <li class="repository">
-      <p class="repository-name">Nome do repositório - teste 01</p>
-      <p class="repository-description">Descrição do repositório - teste 01111111111111ttttttttttttttttttttttt111111111111111111111</p>
-      <button class="button-to-repository">Repositório</button>
-      <button class="button-to-demo">Demo</button>
-    </li>
-    <li class="repository">
-      <p class="repository-name">Nome do repositório</p>
-      <p class="repository-description">Descrição do repositório</p>
-      <button class="button-to-repository">Repositório</button>
-      <button class="button-to-demo">Demo</button>
-    </li>
-    <li class="repository">
-      <p class="repository-name">Nome do repositório</p>
-      <p class="repository-description">Descrição do repositório</p>
-      <button class="button-to-repository">Repositório</button>
-      <button class="button-to-demo">Demo</button>
-    </li>
-    <li class="repository">
-      <p class="repository-name">Nome do repositório</p>
-      <p class="repository-description">Descrição do repositório</p>
-      <button class="button-to-repository">Repositório</button>
-      <button class="button-to-demo">Demo</button>
-    </li>
-    <li class="repository">
-      <p class="repository-name">Nome do repositório</p>
-      <p class="repository-description">Descrição do repositório</p>
-      <button class="button-to-repository">Repositório</button>
-      <button class="button-to-demo">Demo</button>
-    </li>
-    <li class="repository">
-      <p class="repository-name">Nome do repositório</p>
-      <p class="repository-description">Descrição do repositório</p>
-      <button class="button-to-repository">Repositório</button>
-      <button class="button-to-demo">Demo</button>
-    </li>
-    <li class="repository">
-      <p class="repository-name">Nome do repositório</p>
-      <p class="repository-description">Descrição do repositório</p>
-      <button class="button-to-repository">Repositório</button>
-      <button class="button-to-demo">Demo</button>
-    </li>
-    <li class="repository">
-      <p class="repository-name">Nome do repositório</p>
-      <p class="repository-description">Descrição do repositório</p>
-      <button class="button-to-repository">Repositório</button>
-      <button class="button-to-demo">Demo</button>
-    </li>
+    <ul class="list-of-repositories" data-js="listOfRepositories">
+     
     </ul>
   </section>
-
-
 
 <script src="./js/app.js"></script>
 </body>
