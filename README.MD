@@ -2,7 +2,7 @@
 
 <img alt="logo da linguagem HTML5" src=./src/img/favicon.png>
 
-### Implementei esse projeto, consumindo a API do GitHub, que é uma página onde você pode buscar por perfis de devs/usuários do GitHub e obter informações do perfil e repositórios.
+### Consumindo a API do GitHub, implementei esse projeto que é uma página onde você pode buscar por perfis de devs/usuários do GitHub e obter informações do perfil e repositórios.
 
 👀 Dá uma olhada aqui: <https://thiago-levi.github.io/projeto-git-fetcher>
 
